@@ -1,3 +1,4 @@
-# sambulozikhali.github.io
-This is my github. Here's a link to my website:
+# Hello there
+
+I am Sambulo Zikhali, an aspiring software engineer. I'm currently completing my Computer Science degree at the University of Pretoria, so stay tuned to see this github page evolve along with my skillset. But for now, here's a link to my personal website:
 https://sambulozikhali.github.io/
