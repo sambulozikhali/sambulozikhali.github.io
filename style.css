@@ -65,7 +65,7 @@ a:hover {
 
 
 .col-md-6 {
-    background-color: rgba(30, 30, 30, 0.6);   
+    border-radius: 5px;  
     padding: 20px;
     margin-bottom: 20px;
 
