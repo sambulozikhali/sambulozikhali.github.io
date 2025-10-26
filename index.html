@@ -4,85 +4,87 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sambulo Zikhali - CV</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-      background-color: #f7f7f7;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #004aad;
-    }
-    hr {
-      border: 1px solid #ddd;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-  </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <div class="container">
+
+<div class="cv-container">
+  <!-- Header -->
+  <div class="text-center mb-4">
     <h1>Sambulo Zikhali</h1>
     <p><strong>Computer Science Student</strong></p>
-    <p>📞 +27 68 274 5118 | ✉️ <a href="mailto:sambulozikhali2204@gmail.com">sambulozikhali2204@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/sambulo-zikhali" target="_blank">LinkedIn</a></p>
-    
-    <hr>
+    <p>+27 68 274 5118 | <a href="mailto:sambulozikhali2204@gmail.com">sambulozikhali2204@gmail.com</a></p>
+    <p><a href="http://www.linkedin.com/in/sambulo-zikhali-468669261" target="_blank">LinkedIn</a></p>
+  </div>
 
-    <h2>Profile</h2>
+  <hr>
+
+  <!-- Profile -->
+  <div>
+    <h2 class="section-title">Profile</h2>
     <p>As a hardworking and driven Computer Science student, I have a strong foundation in software engineering concepts, algorithms, and web technologies. I am passionate about exploring how these systems are implemented and solving real-world problems through efficient, scalable code. My ultimate goal is to make a meaningful impact in the South African tech industry by improving how users interact with technology and helping our country bridge the digital divide.</p>
+  </div>
 
-    <h2>Education</h2>
+  <!-- Education -->
+  <div>
+    <h2 class="section-title">Education</h2>
     <ul>
-      <li><strong>University of Pretoria</strong> – BSc Computer Sciences (2024 - Present)</li>
-      <li><strong>Empangeni High School</strong> – National Senior Certificate (2019 - 2023), 7 Distinctions, 93% final average</li>
-    </ul>
-
-    <h2>Experience</h2>
-    <p><strong>Peer Tutor</strong> – Empangeni High School (2023)</p>
-
-    <h2>Achievements</h2>
-    <ul>
-      <li>Vice Chancellor’s Distinguished Merit Award</li>
-      <li>Dean’s Merit List (2024)</li>
-      <li>Ninety One Changeblazer</li>
-      <li>IITPSA Applications Olympiad Bronze Finalist (2023)</li>
-      <li>Top 5 in King Cetshwayo District</li>
-      <li>Prefect (2023)</li>
-      <li>Honours Academics (2021–2023)</li>
-      <li>Half Colours Academics (2020)</li>
-      <li>RCL Member (2021)</li>
-    </ul>
-
-    <h2>Skills</h2>
-    <ul>
-      <li>Problem Solving</li>
-      <li>Programming</li>
-      <li>Critical Thinking</li>
-      <li>Communication</li>
-      <li>Leadership</li>
-      <li>Adaptability</li>
-    </ul>
-
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Esports</li>
-      <li>Soccer</li>
-      <li>Gym</li>
+      <li><strong>University of Pretoria</strong>: BSc Computer Sciences (2024 - Present)</li>
+      <li><strong>Empangeni High School</strong>: National Senior Certificate (2019 - 2023), 7 Distinctions, 93% final average</li>
     </ul>
   </div>
+
+  <!-- Experience -->
+  <div>
+    <h2 class="section-title">Experience</h2>
+    <p><strong>Peer Tutor</strong>: Empangeni High School (2023)</p>
+  </div>
+
+  <!-- 2-column layout: Achievements & Skills/Hobbies -->
+  <div class="row mt-4">
+    <!-- Left Column: Achievements -->
+    <div class="col-md-6 mb-3">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Vice Chancellor's Distinguished Merit Award</li>
+        <li>Dean's Merit List (2024)</li>
+        <li>Ninety One Changeblazer</li>
+        <li>IITPSA Applications Olympiad Bronze Finalist (2023)</li>
+        <li>Top 5 in King Cetshwayo District</li>
+        <li>Prefect (2023)</li>
+        <li>Honours Academics (2023)</li>
+        <li>Half Colours Academics (2020)</li>
+        <li>RCL Member (2021)</li>
+      </ul>
+    </div>
+
+    <!-- Right Column: Skills & Hobbies -->
+    <div class="col-md-6 mb-3">
+      <h2>Skills</h2>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Programming</li>
+        <li>Critical Thinking</li>
+        <li>Communication</li>
+        <li>Leadership</li>
+        <li>Adaptability</li>
+      </ul>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Esports</li>
+        <li>Soccer</li>
+        <li>Gym</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional, only needed for components like modals) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
